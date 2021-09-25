@@ -2,6 +2,7 @@
     "modules": true,
     "plugins": {
         "postcss-pxtorem": { "propList": ["font", "font-size", "line-height", "letter-spacing", "width", "height"], "replace": true },
+        "postcss-nested": {},
         "postcss-preset-env": {
             "stage": 3,
             "features": {
