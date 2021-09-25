@@ -1,7 +1,13 @@
 {
     "modules": true,
     "plugins": {
-        "autoprefixer": { "grid": true },
-        "postcss-rem-to-pixel": { "propList": ["font", "font-size", "line-height", "letter-spacing", "width", "height"], "replace": true }
+        "postcss-pxtorem": { "propList": ["font", "font-size", "line-height", "letter-spacing", "width", "height"], "replace": true },
+        "postcss-preset-env": {
+            "stage": 3,
+            "features": {
+                "nesting-rules": true
+            },
+            "autoprefixer": { "grid": true }
+        }
     }
 }

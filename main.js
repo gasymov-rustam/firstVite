@@ -3,5 +3,7 @@ import './style.css'
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>
   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-  <div class="box"></div>
+  <div class="box">
+  <div class="box__N"></div>
+  </div>
 `
