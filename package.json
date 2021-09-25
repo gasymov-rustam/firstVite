@@ -1,0 +1,35 @@
+{
+  "name": "firstvite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.5",
+    "postcss-load-config": "^3.1.0",
+    "postcss-plugin": "^1.0.0",
+    "postcss-pxtorem": "^6.0.0",
+    "postcss-rem-to-pixel": "^4.1.2",
+    "vite": "^2.5.4"
+  },
+  "browserslist": {
+    "production": [
+      "since 2010",
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "since 2010",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "postcss": "^8.3.7",
+    "postcss-scss": "^4.0.0"
+  }
+}
